@@ -71,12 +71,41 @@ h2{
 .conteiner{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+    
     
 }
 
 .conteiner img{
     width: 250px;
     height: 250px;
+    margin: 15px;
+    
+    
+}
+
+.conteiner p {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.input {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+.input input {
+    margin: 10px;
+    color: darkorange;
+    background-color: brown;
 }
 
 
