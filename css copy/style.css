@@ -4,6 +4,94 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos específicos para pantallas de tablets */
+@media (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item img {
+        height: 300px; /* Ajusta la altura para pantallas de tablets */
+    }
+
+    section .conteiner div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section .conteiner div img {
+        width: 80%;
+    }
+
+    section .conteiner div p {
+        margin-top: 10px;
+    }
+
+    footer p {
+        display: flex;
+        display: none;
+    }
+}
+
+/* Estilos específicos para pantallas de teléfonos móviles */
+@media (max-width: 480px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item img {
+        height: 200px; /* Ajusta la altura para pantallas de teléfonos móviles */
+    }
+
+    section .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .conteiner div {
+        margin-bottom: 20px;
+    }
+
+    section .conteiner div img {
+        width: 100%;
+    }
+
+    section .conteiner div p {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    section.input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.input input[type="email"],
+    section.input input[type="submit"] {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        display: flex;
+        display: none;
+    }
+}
+
+
+
+body {
     background-color: #25293A;
 }
 
@@ -145,3 +233,4 @@ color: darkgoldenrod;
 footer p{
     color: white;
 }
+
