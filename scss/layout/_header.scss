@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+    
+    img {
+        width: 70px;
+    }
+    
+    nav{
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin-right: 35px;
+            li {
+                a{
+                    color: white;
+                    margin: 5px;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition:1s;
+                &:hover {
+                    background-color: darkorange;
+                    margin: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
