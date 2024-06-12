@@ -172,7 +172,7 @@ main .conteiner p {
 }
 
 .boton-enviar, .mi-clase {
-  background-color: blueviolet;
+  background-image: linear-gradient(to right, blueviolet, red);
   color: white;
   padding: 10px 20px;
   border: none;
