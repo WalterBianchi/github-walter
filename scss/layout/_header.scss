@@ -6,6 +6,10 @@ header {
     
     img {
         width: 70px;
+        margin-left: 25px;
+        &hover{
+            transform: rotate(45 deg);
+            }
     }
     
     nav{
