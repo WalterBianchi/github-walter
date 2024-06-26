@@ -17,6 +17,7 @@ footer {
 footer img {
   width: 40px;
   border-radius: 10px;
+  margin-left: 25px;
 }
 footer p {
   color: white;
@@ -43,6 +44,11 @@ header {
 }
 header img {
   width: 70px;
+  margin-left: 25px;
+  transition: 2s;
+}
+header img:hover {
+  transform: scale(2) rotate(360deg);
 }
 header nav ul {
   display: flex;
@@ -64,7 +70,7 @@ header nav ul li a:hover {
 main h1 {
   display: flex;
   justify-content: center;
-  color: crimson;
+  color: yellow;
   font-size: 35px;
   margin: 15px;
 }

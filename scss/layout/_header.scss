@@ -7,9 +7,10 @@ header {
     img {
         width: 70px;
         margin-left: 25px;
-        &hover{
-            transform: rotate(45 deg);
-            }
+        transition: 2s;
+        &:hover{
+            transform: scale(2) rotate(360deg);
+        }
     }
     
     nav{
