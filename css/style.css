@@ -7,6 +7,23 @@ body {
   background-color: #25293A;
 }
 
+@keyframes logofooter {
+  0% {
+    transform: translatex(25px);
+  }
+  25% {
+    transform: translatex(30px);
+  }
+  50% {
+    transform: translatex(45px);
+  }
+  75% {
+    transform: translatex(250px);
+  }
+  100% {
+    transform: translatex(55px);
+  }
+}
 footer {
   display: flex;
   align-items: center;
@@ -18,6 +35,11 @@ footer img {
   width: 40px;
   border-radius: 10px;
   margin-left: 25px;
+  transition: 2s;
+  animation-name: logofooter;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
 }
 footer p {
   color: white;
