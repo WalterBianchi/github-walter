@@ -49,5 +49,26 @@ main {
             margin-left: 15px;
         }
     }
+    .surf {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            h2{
+                display: flex;
+        justify-content: center;
+        color: crimson;
+        font-size: 35px;
+        margin-top: 35px;
+            }
+            img{
+                width: 250px;
+            height: 250px;
+            margin: 15px;
+            }
+        }
+    }
 }
 
+
+    
